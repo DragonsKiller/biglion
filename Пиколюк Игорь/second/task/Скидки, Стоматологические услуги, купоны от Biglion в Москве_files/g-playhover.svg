@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>5F142FDD-1EA3-41AF-AE2C-F75D87644A6E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#21C3FC" offset="0%"></stop>
+            <stop stop-color="#27E3FD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="59.2797229%" x2="40.2907587%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFE75F" offset="0%"></stop>
+            <stop stop-color="#FDBB2C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.0854258%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FC3D4A" offset="0%"></stop>
+            <stop stop-color="#DD2956" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.39110785%" y1="7.54943887%" x2="75.2520675%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#28D478" offset="0%"></stop>
+            <stop stop-color="#27EE7B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AppPromo/Android-Hovers" transform="translate(-1004.000000, -746.000000)">
+            <g id="Group" transform="translate(299.000000, 536.000000)">
+                <g id="G-Play/hover" transform="translate(705.630465, 210.789939)">
+                    <path d="M0.429908466,0.498094782 C0.159706817,0.785943998 0,1.23412616 0,1.81545031 L0,1.81545031 L0,22.5509076 C0,23.1322318 0.159706817,23.5794763 0.429908466,23.8682632 L0.429908466,23.8682632 L0.497691011,23.9357718 L12.002153,12.3205402 L12.002153,12.1836478 L12.002153,12.0458177 L0.497691011,0.429648552 L0.429908466,0.498094782 Z" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                    <path d="M12.002153,12.0458177 L12.002153,12.1836478 L12.002153,12.3205402 L15.8360451,16.1938468 L15.9242553,16.144153 L20.4666143,13.5366329 C21.7646964,12.7931005 21.7646964,11.5741951 20.4666143,10.8297251 L20.4666143,10.8297251 L15.9242553,8.22314262 L15.8369736,8.17344878 L12.002153,12.0458177 Z" id="Fill-3" fill="url(#linearGradient-2)"></path>
+                    <path d="M0.429908466,23.8682632 C0.857031348,24.3258215 1.56364116,24.3820787 2.35938966,23.9263956 L15.9242553,16.144153 L12.002153,12.1836478 L0.429908466,23.8682632 Z" id="Fill-5" fill="url(#linearGradient-3)"></path>
+                    <path d="M0.429908466,0.498094782 L12.002153,12.1836478 L15.9242553,8.222205 L2.35938966,0.439962368 C1.9861214,0.2261851 1.63235223,0.124922184 1.31850977,0.124922184 L1.31850977,0.124922184 C0.962883541,0.124922184 0.656469299,0.255251308 0.429908466,0.498094782" id="Fill-7" fill="url(#linearGradient-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

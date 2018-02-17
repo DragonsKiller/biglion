@@ -1,0 +1,123 @@
+(function (window, document) { 
+try { 
+if (document.readyState !== 'interactive' && document.readyState !== 'complete') { 
+   var callee = arguments.callee; 
+   setTimeout(function () { callee(window, document) }, 100); 
+   return; 
+}
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22https%3A%2F%2Fvk.com%2Frtrg%3Fp%3DVK-RTRG-154634-aGAoh%22%20width%3D%221%22%20height%3D%221%22%20border%3D%220%22%20%2F%3E');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22%2F%2Ftop-fwz1.mail.ru%2Fcounter%3Fid%3D2926258%3Bjs%3Dna%22%20style%3D%22border%3A0%3Bposition%3Aabsolute%3Bleft%3A-9999px%3B%22%2F%3E%0D%0A');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22%2F%2Fam15.net%2Fpx.php%3Ff%3Dimg%26amp%3Brid%3D398589536%26amp%3Bd%3D60%22%20alt%3D%22%22%3E');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22https%3A%2F%2Fmc.yandex.ru%2Fwatch%2F45769806%22%20style%3D%22position%3Aabsolute%3B%20left%3A-9999px%3B%22%20alt%3D%22%22%20%2F%3E');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+    (function (w, d) {
+        try {
+            var el = 'getElementsByTagName', rs = 'readyState';
+            if (d[rs] !== 'interactive' && d[rs] !== 'complete') {
+                var c = arguments.callee;
+                return setTimeout(function () { c(w, d) }, 100);
+            }
+            var s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.async = s.defer = true;
+            s.src = '//statab.com/r/s/';
+            var p = d[el]('body')[0] || d[el]('head')[0];
+            if (p) p.appendChild(s);
+        } catch (x) { if (w.console) w.console.log(x); }
+    })(window, document);
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+(function (w, d) {
+        try {
+            var el = 'getElementsByTagName', rs = 'readyState';
+            if (d[rs] !== 'interactive' && d[rs] !== 'complete') {
+                var c = arguments.callee;
+                return setTimeout(function () { c(w, d) }, 100);
+            }
+            var s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.async = s.defer = true;
+            s.src = '//adverwatcher.com/retit';
+            var p = d[el]('body')[0] || d[el]('head')[0];
+            if (p) p.appendChild(s);
+        } catch (x) { if (w.console) w.console.log(x); }
+    })(window, document);
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);

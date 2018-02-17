@@ -1,0 +1,183 @@
+/* @vesrion $Id: no_design.css 127 2010-10-12 07:13:27Z marhipov $ */
+
+
+/* ======== */
+/* Default */
+
+html, form, table {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 75%;
+	font-family: Arial, Tahoma;
+	line-height: 1.5em;
+	color: #000;
+	background: #FDFEEE;
+}
+.subscription-page {
+	background: #1D1D1D;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table th,
+table td {
+	vertical-align: top;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #0077B4;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+input, select, textarea, label {
+	font-size: 100%;
+	font-family: Arial, Tahoma;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+
+
+/* ======= */
+/* Blocks */
+
+.subscription {
+	color: #FFF;
+}
+.body .subscription {
+	color: #000;
+}
+.subscription span {
+	float: left;
+	padding: 0 15px 0 0;
+	margin: 3px 0 0 0;
+}
+.body .subscription span {
+	margin-top: 10px;
+}
+.subscription form input {
+	float: left;
+}
+.subscription form .textinputs,
+.subscription form select {
+	width: 160px;
+	color: #333;
+	border: 1px solid #333;
+	border-width: 0 1px 1px 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 3px 7px 0 0;
+}
+.body .subscription form .textinputs,
+.body .subscription form select {
+	width: 182px;
+	height: 20px;
+	line-height: 1.7em;
+	color: #000;
+	border: 1px solid #A0A0A0;
+	padding-top: 5px;
+}
+.body .subscription form .textinputs {
+	margin-right: 12px;
+}
+.body .subscription form select {
+	height: 30px;
+	padding: 5px;
+}
+.subscription form .submit {
+	width: 106px;
+	height: 27px;
+	position: relative;
+	color: #FFF;
+	border: none;
+	background: url("../img/btn-subscribe.gif") no-repeat;
+}
+.body .subscription form .submit {
+	width: 214px;
+	height: 58px;
+	overflow: hidden;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	border: none;
+	text-shadow: 0 -1px #E26F1F;
+	background: url("../img/bg_button_big.png") no-repeat 0 5px;
+}
+
+.button {
+	width: 144px;
+	height: 34px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	border: none;
+	text-shadow: 0 -1px #E26F1F;
+	background: url("../img/bg_buttons.png") no-repeat;
+	cursor: pointer;
+	padding-bottom: 9px;
+	font-family:arial;
+	line-height:normal;
+	padding-top:2px;
+	
+}
+.button-short {
+	width: 112px;
+	background-position: 0 -40px;
+}
+.body .subscription td {
+	width: 180px;
+}
+.subscription .td-button {
+}
+.subscription .td-button .submit {
+	margin-top: 16px;
+}
+
+
+/* Subscription in towns */
+.subscription-towns form input {
+	float: none;
+}
+.subscription-towns .group-items {
+	width: 47%;
+	float: left;
+	padding: 0 2.9% 0 0;
+}
+.subscription-towns .group-items label {
+	display: block;
+}
+.body .subscription-towns form .textinputs,
+.body .subscription-towns form select {
+	width: 222px;
+}
+.body .subscription-towns form .submit {
+	width: 222px;
+	font-size: 100%;
+	background: url("../img/bg_button_blue.png") no-repeat;
+}
+.subscription-towns .bottom {
+	clear: both;
+	padding: 5px 0 0 0;
+}
+.subscription-towns .bottom a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.subscription-towns .bottom a:hover {
+	text-decoration: none;
+}
